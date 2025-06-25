@@ -1,0 +1,222 @@
+@font-face {
+    font-family:'abc' ;
+    src: url('EduNSWACTHandPre-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family:'dance' ;
+    src: url('DancingScript-VariableFont_wght.ttf');
+}
+*{
+    font-family: 'abc';
+    margin: 0;
+}
+.home{
+    background-image: url('1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    
+}
+nav{
+    border: 1px solid brown;
+    padding: 3px;
+    margin-bottom: 19px;
+    background-color: rgb(213, 181, 140);
+}
+.home header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.home header nav ul li{
+    padding-right: 18px;
+
+
+}
+.home header nav ul li a{
+    color: rgb(90, 49, 6);
+    font-weight: 500;
+    text-decoration: none;
+}
+.home header nav ul li a:hover{
+    color: blue;
+}
+.myname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myimg img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+.name{
+    font-family: 'dance';
+    font-weight:500;
+    font-size: 1.4cm;
+    color: rgb(76, 43, 3);
+}
+.ab{
+    font-family: 'abc';
+    font-weight:200;
+    font-size: 0.7cm;
+    color: rgb(76, 43, 3);
+
+}
+.ab2{
+    border: 2px solid brown;
+    padding: 7px;
+    margin: 2px;
+    background-color: rgb(219, 192, 137);
+    box-shadow: 0 0 30px rgba(169, 8, 8, 0.5);
+}
+.menu_toggle{
+    display: none;
+}
+.education{
+    background-image: url('2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+
+}
+.edu_h2{
+    text-align: center;
+    color: rgb(49, 79, 200);
+    font-size: 29px;
+    font-weight:600;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.edu div{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(22, 19, 16);
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 9px;
+    background-image: linear-gradient(to right bottom,rgb(150, 182, 226),rgb(234, 210, 149));
+    font-weight: 700;
+    font-size: 21px;
+}
+.skills{
+    background-image: url('3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+
+}
+.skill_h2{
+    text-align: center;
+    color: rgb(90, 71, 12);
+    font-size: 29px;
+    font-weight:600;
+
+}
+.skill{
+    font-size: 20px;
+    font-weight: 500;
+}
+.intern{
+    background-image: url('4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+
+}
+.intern_h2{
+    text-align: center;
+    color: rgb(201, 117, 1);
+    font-size: 29px;
+    font-weight:600;
+
+}
+.intern ul li{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.certi img{
+    width: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+.enlarge{
+    display: none;
+
+}
+#close{
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+}
+#project{
+    background-image: url('5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+
+}
+.project_h2{
+    text-align: center;
+    color: rgb(156, 16, 116);
+    font-size: 29px;
+    font-weight:600;
+
+}
+.contact{
+    background-image: url('6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+
+}
+.link,.cont{
+    display: flex;
+
+}
+.link span,.cont span{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid orange;
+    border-radius: 17px;
+    background-color: rgba(228, 185, 185, 0.9);
+    width: 240px;
+
+}
+.link span a,.cont span a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+

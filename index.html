@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="home" class="home">
+    <header>
+        <nav>
+            <div class="menu_toggle">&#9776</div>
+            <ul >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#intern">Internships and Course</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="myname">
+        <div class="myimg">
+        <img src="personal.jpg" alt="myphoto.jpg"></center>
+        </div>
+        <div class="name">
+            SUKANYA DAS
+        </div>
+        <div class="ab">
+            Aspiring  Frontend Developer and Data Analysis Enthusiastic
+        </div>
+        <div class="ab2">
+            Hi! I'm a college student passionate about frontend web development and data analysis. I enjoy building clean, user-friendly websites and exploring how data can be turned into meaningful insights. Alongside coding, I also use Canva for designing web layouts and creative visuals, blending design with functionality.
+<br>I'm a focused and dedicated learner, always eager to explore new tools and improve my skills. Whether it's creating engaging user interfaces or analyzing data trends, I love bringing ideas to life through technology and design.</div>
+    </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="edu_h2">Education</h2>
+        <div class="edu">
+        <div class="school"><span style="font-weight:bold;text-decoration:underline;">SCHOOL</span><br>AABV (2015-2023) <br>WBCHSE <br>H.S:94%(PCM)</div>
+        <div class="college">
+        <span style="font-weight:bold;text-decoration:underline;">COLLEGE</span><br>St.Xavier's College, Kolkata(2023-2027) <br>Cgpa:8.90
+        </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+    <h2 class="skill_h2">
+        Skills
+    </h2>
+    <div class="skill">
+        <ul>
+            <li>Frontened(HTML,HTML5,CSS,Java Script)</li>
+            <li>WordPress(Basics)</li>
+            <li>Programming Language(C,C++,Java,Python)</li>
+            <li>Data Analysis(Tabalue,Power BI,Python)</li>
+            <li>SQL</li>
+            <li>Designs using CANVA And Chat-GPT</li>
+            <li>Log Inspection and Web Security</li>
+        </ul>
+    </div>
+    </section>
+    <section class="intern" id="intern">
+            <h2 class="intern_h2">
+        Internships and Courses
+    </h2>
+    <ul>
+        <li>Work as an Intern(Data Analysis) at IDEAS-TIH@ISI-Kolkata
+            <br>
+            <div class="certi">
+                <img src="certi.jpg" alt="certificate" id="old_im"onclick="openimage()" >
+                <br><div style="font-family: 'Courier New', Courier, monospace;" id="c1">Click on the image for full view</div>
+                <div style="font-family: 'Courier New', Courier, monospace;background-color:red;color:white;padding:4px; display:none" id="c2">Click on the X  to exit full view</div>
+                <br>
+                <div class="enlarge" id="enlarge">
+                <span id="close" onclick="closeimg()">&times;</span>
+                <img src="certi.jpg" style="width: 500px;height:500px;border:2px solid black" >
+                </div>
+  
+
+            </div>
+
+        </li>
+        <li>
+            Deloitte Australia-Cyber Job Simulation(I have done practical  experience on how to handle log files and gather experience on websecurity.)
+            <br><a href="del.pdf" target="_blank">View Certificate</a>
+        </li>
+        <li>Data Analysis Course at Vidyastu (Using Python,Power BI, Tabalaue)
+            <br><a href="certificate.pdf" target="_blank">View Certificate</a>
+        </li>
+    </ul>
+    </section>
+    <script src="script.js"></script>
+    <section id="project">
+    <h2 class="project_h2">
+        Projects
+    </h2>
+    <div class="proj">
+        <div class="pr1">
+            <h2 style="text-decoration: underline;">Fine-Tuning LLaMA2 on Normal Tissue Dataset</h2>
+            <br>
+          <strong>  Group Project(Under Mentor's Guidence) | IDEAS-TIH@ISI-Kolkata| Python | Hugging Face | LoRA | Transformers</strong><ul><li>
+Fine-tuned Meta 's LLaMA 2 model on a custom dataset of normal tissue samples to improve biomedical text generation. Use <strong>LoRA </strong> for efficient parameter tuning using the Hugging Face ecosystem. <li>
+Preprocessed biomedical text data and formatted it for training using the Transformers library. <li>
+Implemented <strong> QLoRA </strong> for memory-efficient fine-tuning. <li>
+Evaluated model outputs for fluency and domain relevance using sample prompts.
+
+Collaborated in a team to push the final model to Hugging Face Hub.
+<li>
+<strong>Tools & Libraries</strong> Python, PyTorch, Hugging Face Transformers, Datasets, LoRA, QLoRA, Google Colab
+<li>
+<a href="https://github.com/me-dibs/intern-project">Github Link to check</a></ul>
+<br>
+<div style="display: flex;">
+<img src="ss.png" alt="screenshot" width="570px;" style="margin: 7px;">
+<img src="ss2.png" alt="screenshot" width="680px;"></div>
+    <br>
+    <caption>Screen shot of our project Work</caption>
+        </div>
+        <div class="pr2">
+            <h2 style="text-decoration: underline;">A Simple Solar System using basic THREE.js</h2>
+            <br>
+<strong>
+Solo Project | JavaScript | Three.js | HTML/CSS</strong>
+<ul>
+    <li>Project make for submission for an Internship where I was shortlisted(EmptyCup)</li>
+<li>Built an interactive 3D solar system using <strong>Three.js</strong> featuring orbiting planets, lighting effects, and user controls for enhanced interactivity.
+
+<li> Created a realistic model of the solar system with textured planets orbiting the sun.
+<li> Implemented a <strong>Speed control dashboard </strong>using Java Script to adjust planet rotation and revolution speeds.
+<li> Added <strong>light and dark mode toggle</strong> to change scene ambiance dynamically.
+<li> Included<strong>Pause</strong> and<strong>Resume</strong>functionality for complete animation control.
+<li><strong>Technologies Used : </strong> Three.js, JavaScript, HTML, CSS
+</ul>
+<br>
+<div style="display: flex;">
+<img src="ss3.png" alt="screenshot" width="680px;" style="margin-right: 8px;">
+<img src="ss4.jpg" alt="screenshot" width="680px;" height="400px">
+</div>
+<br>
+    <caption>Screen shot of my project Work</caption>
+
+        </div>
+    </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="cont">
+            <span>
+                <a href="tel:+91 7384502130">
+                    <img src="phone.png" alt="" width="70px" style="border-radius: 50%;">
+                    <br>Phone : 7384502130
+                </a>
+            </span>
+            <span>
+                <a href="http://wa.me/917384502130" target="_blank" rel="noopener noreferrer">
+                        <img src="whats.jpg" alt="" width="70px" style="border-radius: 50%;">
+                    <br>Whatsapp:7384502130</a>
+            </span>
+            <span>
+                <a href="mailto:sukanyadas299@gmail.com" target="_blank">
+                        <img src="gmail.jpg" alt="" width="70px" style="border-radius: 50%;">
+                    <br>Gmail: sukanyadas299@gmail.com</a>
+                    
+                </a>
+
+            </span>
+        </div>
+        <h2>More Links</h2>
+        <div class="link">
+           <span>
+          <a href="http://github.com/sukanya123884">
+                <img src="github.png" alt="" width="60px" height="56px" style="border-radius: 50%;">
+                <br>
+                Github</a>
+                </span>
+                <br>
+                <span>
+                    <a href="http://www.linkedin.com/in/sukanya-das-207367288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src="LinkedIn_logo.svg" alt="" width="200px">
+                    <br>
+                    
+                 Linkedin Profile</a>
+                </span>
+        </div>
+        
+    </section>
+    <section >
+    <footer>
+        © 2025 Sukanya Das . All rights reserved. 
+    </footer>
+    </section>
+</body>
+</html>
